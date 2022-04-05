@@ -1,3 +1,8 @@
+/* Conestoga College
+* Rectangle.cpp FILE
+* Authors    :   Kenneth, Ali, Nico
+*/
+
 #include "Shape.h"
 #include "Rectangle.h"
 #include <iostream>
@@ -5,12 +10,20 @@
 
 using namespace std; 
 
+/**
+ * Rectangle area function
+ * Returns the area of a rectangle object
+ */
 int Rect::area()
 {
 
-	return width * height;
+	return width * height; //!< Returns the rectangle object's width multiplied by its height (area)
 }
 
+/**
+ * Rectangle Draw function
+ * Draws a rectangle object to cout
+ */
 void Rect::draw(Rect r)
 {
 	for (int i = 0; i < r.width; i++)
