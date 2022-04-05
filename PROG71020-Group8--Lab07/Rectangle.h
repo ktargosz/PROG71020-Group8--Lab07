@@ -2,11 +2,12 @@
 
 #include "Shape.h"
 
-class Rectangle : public Shape {
+// Class named Rect as Rectangle is already define in std namespace
+class Rect : public Shape {
 public:
-    Rectangle(int a = 0, int b = 0) :Shape(a, b) { }
+    Rect(int a = 0, int b = 0) :Shape(a, b) { }
 
     int area();
 
-    void draw(Rectangle);
+    void draw(Rect);
 };

@@ -1,6 +1,13 @@
 #pragma once
 
-class Shape {
+#include<iostream>
+#include<Windows.h>
+#include "Drawable.h"
+
+#define MAX 3
+#define PI 3.14
+
+class Shape : public Drawable { 
 protected:
     int width, height;
 
